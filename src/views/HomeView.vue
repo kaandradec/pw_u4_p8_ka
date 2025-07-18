@@ -14,5 +14,8 @@ export default {
   components: {
     HelloWorld,
   },
+  updated() {
+    console.log(this.$route.query.anio);
+  },
 };
 </script>
